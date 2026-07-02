@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+numpy
+cohere
+langchain==0.3.26
+langchain-core==0.3.86
+langchain-community==0.3.26
+faiss-cpu
+langchain-cohere<0.4

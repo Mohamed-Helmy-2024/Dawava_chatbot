@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.git
+.gitignore
+
+.vscode
+.idea
+
+.env
+
+venv/
+.venv/
+env/
+
+AI models/
+models/
+
+chroma/
+chromadb/
+
+*.db
+*.sqlite3
+
+.ipynb_checkpoints/
