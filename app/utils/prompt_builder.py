@@ -201,4 +201,7 @@ in the same language as the user.
 
 USER QUESTION:
 {query}
+and 
+MEMORY SUMMARY:
+{memory_summary}
 """
