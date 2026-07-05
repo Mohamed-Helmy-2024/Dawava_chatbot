@@ -39,7 +39,6 @@ chromadb/
 *.index
 
 # Models
-models/
 checkpoints/
 
 # HuggingFace cache
