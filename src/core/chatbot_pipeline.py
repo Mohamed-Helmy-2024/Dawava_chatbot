@@ -12,10 +12,10 @@ no user_id/session_id):
   5. Generate final answer (Qwen3-1.7B, using the memory buffer - cells 43-45)
 """
 
-from app.core.classifier_pipeline import classify_query
-from app.core.retrieval_pipeline import search_medicines, search_questions
-from app.core.generation_pipeline import generate_answer
-from app.core.memory_pipeline import build_memory_buffer
+from src.core.classifier_pipeline import classify_query
+from src.core.retrieval_pipeline import search_medicines, search_questions
+from src.core.generation_pipeline import generate_answer
+from src.core.memory_pipeline import build_memory_buffer
 
 
 def run_chatbot(query, history):

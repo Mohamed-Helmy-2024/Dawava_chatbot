@@ -6,7 +6,7 @@ Run with:
 
 from fastapi import FastAPI
 
-from app.controllers.chat_controller import router as chat_router
+from src.controllers.chat_controller import router as chat_router
 
 app = FastAPI(title="Medical Chatbot API")
 

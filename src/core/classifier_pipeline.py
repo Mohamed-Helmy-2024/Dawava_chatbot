@@ -10,10 +10,10 @@ The memory buffer is built once per request by the memory_pipeline
 from the history the client sent, and passed in here.
 """
 
-from app.models.classifier_model import generate_text
-from app.utils.prompt_builder import build_classifier_prompt
-from app.utils.text_cleaner import clean_label
-from app.config import CLASSIFIER_MAX_TOKENS
+from src.models.classifier_model import generate_text
+from src.utils.prompt_builder import build_classifier_prompt
+from src.utils.text_cleaner import clean_label
+from src.config import CLASSIFIER_MAX_TOKENS
 
 
 def classify_query(user_query, memory_buffer="No previous memory."):

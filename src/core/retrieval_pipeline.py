@@ -12,8 +12,8 @@ import pickle
 import numpy as np
 import faiss
 
-from app.models.embedding_model import get_embedding
-from app.config import (
+from src.models.embedding_model import get_embedding
+from src.config import (
     MEDICINE_INDEX_PATH,
     MEDICINE_METADATA_PATH,
     QUESTIONS_INDEX_PATH,

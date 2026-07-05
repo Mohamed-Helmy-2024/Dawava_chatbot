@@ -7,9 +7,9 @@ medical/drug, simple prompt for general), apply the chat template, and
 call model.generate() through generate_text().
 """
 
-from app.models.llm_model import generate_text
-from app.utils.prompt_builder import build_prompt, build_general_prompt
-from app.config import GENERATION_MAX_TOKENS
+from src.models.llm_model import generate_text
+from src.utils.prompt_builder import build_prompt, build_general_prompt
+from src.config import GENERATION_MAX_TOKENS
 
 
 def generate_answer(query, retrieved_context, category, memory_summary="No previous memory."):

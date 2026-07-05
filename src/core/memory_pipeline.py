@@ -6,7 +6,7 @@ The client still sends the full conversation, but instead of returning
 the last N messages, this module returns an LLM-generated summary.
 """
 
-from app.config import MEMORY_BUFFER_LIMIT
+from src.config import MEMORY_BUFFER_LIMIT
 from langchain.memory import ConversationSummaryBufferMemory
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_cohere import ChatCohere

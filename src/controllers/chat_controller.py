@@ -5,9 +5,9 @@ full conversation history as messages (up to 1000 entries).
 """
 
 from fastapi import APIRouter
-from app.schemas.chat_request import ChatRequest
-from app.schemas.chat_response import ChatResponse
-from app.services.chat_service import handle_chat
+from src.schemas.chat_request import ChatRequest
+from src.schemas.chat_response import ChatResponse
+from src.services.chat_service import handle_chat
 
 router = APIRouter()
 

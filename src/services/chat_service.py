@@ -4,8 +4,8 @@ Runs the full pipeline: build memory buffer -> classify -> route ->
 retrieve -> generate.
 """
 
-from app.core.chatbot_pipeline import run_chatbot
-from app.utils.logger import logger
+from src.core.chatbot_pipeline import run_chatbot
+from src.utils.logger import logger
 
 
 def handle_chat(query: str, history: list, user_id: str = "", session_id: str = ""):
